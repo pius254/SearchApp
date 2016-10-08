@@ -1,0 +1,38 @@
+[
+	{
+		"name":"Pius Wanjiru",
+		"shortname":"pm",
+		"reknown":"Web programmer and designer",
+		"bio":"He is a fouth year IT student in MMUST, with a bias in web programming.He also like watching fiction series"
+	},
+	{
+		"name":"Linus Tolvalds",
+		"shortname":"lt",
+		"reknown":"Creator of Linux Kernel",
+		"bio":"Linus Benedict Torvalds is a Finnish-American software engineer who is the creator and, for a long time, principal developer, of the Linux kernel, which became the kernel for operating systems such as GNU and years later Android and Chrome OS."
+	},
+	{
+		"name":"Mike Bostock",
+		"shortname":"mb",
+		"reknown":"developer of D3.js",
+		"bio":"Michael 'Mike' Bostock is an American computer scientist and data-visualisation specialist. He is noted as one of the key developers of D3.js, a JavaScript library used for producing dynamic, interactive, online data visualizations."
+	},
+	{
+		"name":"Jim Parsons",
+		"shortname":"jp",
+		"reknown":"Main Actor in The Big Bang Theory",
+		"bio":"James Joseph 'Jim' Parsons is an American actor. He is known for playing Sheldon Cooper in the CBS sitcom The Big Bang Theory."
+	},
+	{
+		"name":"Stephen Hawkings",
+		"shortname":"sh",
+		"reknown":"Physist, cosmetologist-come up with the big bang theory",
+		"bio":"He come up with the Big Bang Theory"
+	},
+	{
+		"name":"Terrence Tao",
+		"shortname":"tt",
+		"reknown":"Started Teaching mathematics at the age of two",
+		"bio":"He started teaching mathematics at the age of two and went to teach physics in campus when he was very young,he has also worked for NASA"
+	}
+]

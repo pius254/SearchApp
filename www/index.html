@@ -44,12 +44,13 @@
           <input type="search" placeholder="Search">
         </label>
       </div>
-      <ion-content class="has-subheader">
+      <ion-content ng-controller="ListController" class="has-subheader">
         <ion-list>
-          <ion-item class="item-thumbnail-left item-text-wrap">
-            <img src="http://www.flickr.com" alt="Photo">
-            <h2>Name</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis velit quidem perspiciatis dolorem dolor debitis quam error ipsa officia, qui necessitatibus magni ab mollitia enim nostrum, ipsam voluptate itaque, voluptatibus.</p>
+          <ion-item ng-repeat='item in artists' class="item-thumbnail-left item-text-wrap">
+            <img ng-src="img/{{item.shortname}}.jpg" alt="Photo of {{item.name}}">
+            <h2>{{item.name}}</h2>
+            <h3>{{item.reknown}}</h3>
+            <p>{{item.bio}}</p>
           </ion-item>
         </ion-list>
       </ion-content>
