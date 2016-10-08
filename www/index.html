@@ -35,10 +35,23 @@
   <body ng-app="starter">
 
     <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
+      <ion-header-bar class="bar-dark">
+        <h2 class="title">Favourite List</h2>
       </ion-header-bar>
-      <ion-content>
+      <div class="bar bar-subheader item-input-inset bar-light">
+        <label class="item-input-wrapper">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" placeholder="Search">
+        </label>
+      </div>
+      <ion-content class="has-subheader">
+        <ion-list>
+          <ion-item class="item-thumbnail-left item-text-wrap">
+            <img src="http://www.flickr.com" alt="Photo">
+            <h2>Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis velit quidem perspiciatis dolorem dolor debitis quam error ipsa officia, qui necessitatibus magni ab mollitia enim nostrum, ipsam voluptate itaque, voluptatibus.</p>
+          </ion-item>
+        </ion-list>
       </ion-content>
     </ion-pane>
   </body>
