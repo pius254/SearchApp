@@ -54,7 +54,7 @@ angular.module('starter', ['ionic'])
       url: '/list/:aId',
       views:{
         'list-tab' : {
-          templateUrl: 'templates/detail.html',
+          templateUrl: 'templates/detail.php',
           controller: 'ListController'
         }
       }

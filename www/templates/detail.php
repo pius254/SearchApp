@@ -18,11 +18,11 @@
 			  		<div class="form-group">
 				    	<label for="phone">Phone Number</label>
 				    	<!--<p class="form-control-static">{{item.phone}}</p>-->
-				    	<input type="tel" class="form-control" id="phone" value="{{item.phone}}" disabled>
+				    	<input type="tel" class="form-control" name="phone" value="{{item.phone}}" disabled>
 			 		</div>
 			 		<div class="form-group">
 				    	<label for="message">Message</label>
-				    	<textarea type="text" class="form-control" id="message" placeholder="Type Message" style="resize: none"></textarea>
+				    	<textarea type="text" class="form-control" name="message" placeholder="Type Message" style="resize: none"></textarea>
 			  		</div>
 			  		<button type="submit" class="btn btn-primary">SEND</button>
 				</form>
